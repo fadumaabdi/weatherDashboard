@@ -18,7 +18,7 @@ This project involved creating a Weather Dashboard which features the Open Weath
 ![Website Screenshot](weatherdashboard.png)
 
 # Links
-[Click here to access the deployed website.](https://fadumaabdi.github.io/passwordGenerator/index.html)
+[Click here to access the deployed website.](https://fadumaabdi.github.io/weatherDashboard/index.html)
 
-[Click here to access the files on the github repository.](https://github.com/fadumaabdi/passwordGenerator)
+[Click here to access the files on the github repository.](https://github.com/fadumaabdi/weatherDashboard)
 
