@@ -1,4 +1,4 @@
-// Easy access to elements
+
 var searchHistoryList = $('#search-history-list');
 var searchCityInput = $("#search-city");
 var searchCityButton = $("#search-city-button");
@@ -12,17 +12,17 @@ var UVindex = $("#uv-index");
 
 var weatherContent = $("#weather-content");
 
-// Get access to the OpenWeather API
+// access to OpenWeather API
 var APIkey = "8d2e658606ee56028b3663d3d3f13a2a";
 
-// Easy access to data
+// data
 var cityList = [];
 
-// Find current date and display in title
+// Fcurrent date and display in title
 var currentDate = moment().format('L');
 $("#current-date").text("(" + currentDate + ")");
 
-// Check if search history exists when page loads
+// Check  search history existence
 initalizeHistory();
 showClear();
 
@@ -154,10 +154,7 @@ function currentConditionsRequest(searchValue) {
                 forecastHumidity.prepend("Humidity: ");
                 forecastHumidity.append("%");
                 
-                // console.log(response.list[i].dt_txt);
-                // console.log(response.list[i].main.temp);
-                // console.log(response.list[i].main.humidity);
-
+           
             }
         });
 
